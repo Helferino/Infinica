@@ -1,6 +1,27 @@
-# Nuxt 3 Minimal Starter
+# Infinica - Jakub Urban
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+## Note for reviewer
+I left some comments across application's code (mostly `app.vue` and `components`) for better understanding some of my decisions but also I added some improvements I would make but evaluated them as not that important.
+
+Other improvements:
+
+Project:
+  - Use CSS post-processor - Scss/Sass/Less
+  - Maybe use store (Pinia/Vuex) for storing some data ?
+  - Add more styling (I wasn't focusing on that part)
+  - Maybe Nuxt.js is overkill but I like it this way 🤓
+  - Better HTTP error handling
+
+News ticker:
+  - Add current time and date
+  - Find better API, current are some kind of article titles which are not very fitting
+  - Set direction of animation in component props
+
+Text selection:
+  - Show results count
+  - Pass debounce timeout in component props
+  - Button to clear current search
+  - Option to don't search in specific elements or classes
 
 ## Setup
 
@@ -16,6 +37,12 @@ npm install
 # pnpm
 pnpm install
 ```
+
+### Environment setup
+
+~~Create `.env` file in root based on `.env.example` structure~~
+
+__I left `.env` file in project for faster setup (But don't do this at home kids)__
 
 ## Development Server
 
@@ -38,5 +65,3 @@ Locally preview production build:
 ```bash
 npm run preview
 ```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
