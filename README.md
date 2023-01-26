@@ -22,6 +22,7 @@ Text selection:
   - Pass debounce timeout in component props
   - Button to clear current search
   - Option to don't search in specific elements or classes
+  - Regex excape (Right now cannot select "." or "?", etc.)
 
 ## Setup
 
@@ -41,8 +42,6 @@ pnpm install
 ### Environment setup
 
 ~~Create `.env` file in root based on `.env.example` structure~~
-
-__I left `.env` file in project for faster setup (But don't do this at home kids)__
 
 ## Development Server
 
