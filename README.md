@@ -41,7 +41,7 @@ pnpm install
 
 ### Environment setup
 
-~~Create `.env` file in root based on `.env.example` structure~~
+Create `.env` file in root based on `.env.example` structure
 
 ## Development Server
 
